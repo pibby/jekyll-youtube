@@ -1,4 +1,4 @@
-jekyll-youtube
+Easy Youtube Embed for Jekyll
 ==============
 
 A Jekyll plugin to make embedding Youtube videos very easy
