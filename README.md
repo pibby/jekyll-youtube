@@ -4,7 +4,7 @@ Easy Youtube Embed for Jekyll
 A Jekyll plugin to make embedding Youtube videos very easy
 
 ## Demo
-[Jekyll Youtube Plugin](http://katieharron.herokuapp.com/jekyll-youtube-plugin/)
+[Jekyll Youtube Plugin](http://dev.pibby.com/jekyll-youtube-plugin/)
 
 ## Installation Instructions
 Download the file `youtube.rb` and place it in your `_plugins` folder of your Jekyll installation.
