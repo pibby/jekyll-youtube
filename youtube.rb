@@ -7,7 +7,7 @@
 #   Output:
 #   <div class="video">
 #     <figure>
-#       <iframe width="640" height="480" src="//www.youtube.com/embed/Al9FOtZcadQ?rel=0" allowfullscreen></iframe>
+#       <iframe width="640" height="480" src="//www.youtube.com/embed/Al9FOtZcadQ" allowfullscreen></iframe>
 #     </figure>
 #   </div>
 
@@ -26,14 +26,11 @@ module Jekyll
     end
 
     def render(context)
-
       source = "<div class=\"video\">"
-
       source += "<figure>"
-      source += "<iframe width=\"640\" height=\"480\" src=\"//www.youtube.com/embed/#{@url}?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+      source += "<iframe width=\"640\" height=\"480\" src=\"//www.youtube.com/embed/#{@url}\" frameborder=\"0\" allowfullscreen></iframe>"
       source += "</figure>"
       source += "</div>"
-
       source
     end
   end
